@@ -1,0 +1,71 @@
+﻿@page "{BlogId}"
+@using BlogWebSite.Models
+@model BlogWebSite.Pages.Blogs.ViewBlogModel
+@{
+    ViewData["Title"] = "ViewBlog";
+    var bIsAuthor = ViewData["bIsAuthor"] != null ? Convert.ToBoolean(ViewData["bIsAuthor"]) : false;
+}
+
+
+<div class="blog col-md-12">
+    <form method="post" class="form-horizontal" enctype="multipart/form-data">
+        <div class="container-fluid">
+            <div class="row">
+                <h3 style="display:inline;color:#e74797">@Model.blog.Title</h3>
+                @if (bIsAuthor)
+                {
+                    <button asp-page-handler="Edit" class="btn btn-link">Edit</button>
+                    <button asp-page-handler="Delete" class="btn btn-link">Delete</button>
+                }
+            </div>
+        </div>
+    </form>
+
+    <div>
+        <p style="display:inline;"><b>Date :-</b>@Model.blog.Datecreated.Value.ToShortDateString()</p>
+        <p style="display:inline;">&nbsp;&nbsp;<b>Author :- </b> @Model.blog.User.UserName</p>
+    </div>
+    <p>@Model.blog.Description</p>
+</div>
+
+<form method="post" class="form-horizontal" enctype="multipart/form-data">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="form-group">
+                <label class="col-md-10 ">Add Comment</label>
+                <div class="col-md-12">
+                    <textarea rows="3" asp-for="Comment" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12">
+                    <button type="submit" asp-page-handler="SaveComment" class="btn btn btn-primary">Save</button>
+                    <button type="submit" asp-page-handler="Cancel" class="btn btn btn-warning">Cancel</button>
+                </div>
+            </div>
+            </div>
+        </div>
+</form>
+<h3>Comments</h3>
+<div class="container">
+    <div>
+        @foreach (var comment in Model.blogComments)
+        {
+            <div class="col-md-12">
+                <h4 style="display:inline;">@comment.User.UserName</h4>
+                <h5 style="display:inline;">@comment.Datecreated.Value.ToShortDateString()</h5>
+                <form method="post" class="form-horizontal" enctype="multipart/form-data">
+                    <input type="hidden" name="BlogCommentsId" value="@comment.BlogCommentsId" />
+                    @if (bIsAuthor)
+                    {
+                        <button  asp-page-handler="DeleteComment" class="btn btn-link">Delete Comment</button>
+                    }
+                    <p><h5>@comment.Comment</h5></p>
+                </form>
+                <hr />
+            </div>
+        }
+    </div>
+
+</div>
+

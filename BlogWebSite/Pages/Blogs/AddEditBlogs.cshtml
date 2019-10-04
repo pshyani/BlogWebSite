@@ -1,0 +1,38 @@
+﻿@page "{BlogId?}"
+@model BlogWebSite.Pages.Blogs.AddEditBlogsModel
+@{
+    var title = Model.IsNewBlog ? "New Blog" : "Edit Blog";
+}
+
+@if (!ModelState.IsValid)
+{
+    <div class="col-md-offset-2 col-md-10">
+        <h3 class="text-danger">Validation Errors</h3>
+        <div asp-validation-summary="All"></div>
+        <hr />
+    </div>
+}
+    <h3>@title</h3>
+<form method="post" class="form-horizontal" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="blog.Title" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="blog.Title" class="form-control" />
+            <span asp-validation-for="blog.Title"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="blog.Description" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <textarea rows="9" asp-for="blog.Description" class="form-control"></textarea>
+            <span asp-validation-for="blog.Description"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn btn-primary">Save</button>
+            <button type="submit" asp-page-handler="Cancel" class="btn btn btn-warning">Cancel</button>
+        </div>
+    </div>
+</form>
+

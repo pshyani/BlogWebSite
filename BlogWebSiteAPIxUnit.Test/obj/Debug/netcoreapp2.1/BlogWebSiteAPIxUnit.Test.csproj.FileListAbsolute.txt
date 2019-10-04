@@ -1,0 +1,17 @@
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\obj\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.csprojAssemblyReference.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\obj\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.csproj.CoreCompileInputs.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\obj\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.AssemblyInfoInputs.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\obj\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.AssemblyInfo.cs
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.deps.json
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.runtimeconfig.json
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.runtimeconfig.dev.json
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.pdb
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\BlogWebSiteAPI.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\bin\Debug\netcoreapp2.1\BlogWebSiteAPI.pdb
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\obj\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.csproj.CopyComplete
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\obj\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPIxUnit.Test\obj\Debug\netcoreapp2.1\BlogWebSiteAPIxUnit.Test.pdb

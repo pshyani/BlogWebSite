@@ -1,0 +1,14 @@
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\bin\Release\netcoreapp2.1\BlogWebSiteAPI.deps.json
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\bin\Release\netcoreapp2.1\BlogWebSiteAPI.runtimeconfig.json
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\bin\Release\netcoreapp2.1\BlogWebSiteAPI.runtimeconfig.dev.json
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\bin\Release\netcoreapp2.1\BlogWebSiteAPI.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\bin\Release\netcoreapp2.1\BlogWebSiteAPI.pdb
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.csprojAssemblyReference.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.csproj.CoreCompileInputs.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.RazorAssemblyInfo.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.RazorAssemblyInfo.cs
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.AssemblyInfoInputs.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.AssemblyInfo.cs
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.RazorTargetAssemblyInfo.cache
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.dll
+C:\code\ASP.NET CORE WEBAPI\BlogWebSite\BlogWebSiteAPI\obj\Release\netcoreapp2.1\BlogWebSiteAPI.pdb

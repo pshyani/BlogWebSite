@@ -1,0 +1,21 @@
+﻿@page "{handler?}"
+@using BlogWebSite.Models
+@model BlogWebSite.Pages.Blogs.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+
+    <div class="row blogs">
+        @foreach (var blog in Model.Blogs)
+        {
+            <div class="blog col-md-6">
+                <h3><a href="/Blogs/ViewBlog/@blog.BlogId">@blog.Title</a></h3>
+                <h5>(@blog.Datecreated.Value.ToShortDateString())</h5>
+                <p>@((blog.Description.Length > 500) ? blog.Description.Substring(0, 700) + "...." : blog.Description)</p>
+            </div>
+        }
+    </div>
+
+</div>
